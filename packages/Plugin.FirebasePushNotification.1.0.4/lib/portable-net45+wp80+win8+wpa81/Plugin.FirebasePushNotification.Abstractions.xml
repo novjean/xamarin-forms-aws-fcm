@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.FirebasePushNotification.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification">
+            <summary>
+            Interface for FirebasePushNotification
+            </summary>
+        </member>
+        <member name="M:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.GetUserNotificationCategories">
+            <summary>
+            Get all user notification categories
+            </summary>
+        </member>
+        <member name="P:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.SubscribedTopics">
+            <summary>
+            Get all subscribed topics
+            </summary>
+        </member>
+        <member name="M:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.Subscribe(System.String[])">
+            <summary>
+            Subscribe to multiple topics
+            </summary>
+        </member>
+        <member name="M:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.Subscribe(System.String)">
+            <summary>
+            Subscribe to one topic
+            </summary>
+        </member>
+        <member name="M:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.Unsubscribe(System.String)">
+            <summary>
+            Unsubscribe to one topic
+            </summary>
+        </member>
+        <member name="M:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.Unsubscribe(System.String[])">
+            <summary>
+            Unsubscribe to multiple topics
+            </summary>
+        </member>
+        <member name="M:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.UnsubscribeAll">
+            <summary>
+            Unsubscribe all topics
+            </summary>
+        </member>
+        <member name="P:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.NotificationHandler">
+            <summary>
+            Notification handler to receive, customize notification feedback and provide user actions
+            </summary>
+        </member>
+        <member name="E:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.OnTokenRefresh">
+            <summary>
+            Event triggered when token is refreshed
+            </summary>
+        </member>
+        <member name="E:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.OnNotificationOpened">
+            <summary>
+            Event triggered when a notification is opened
+            </summary>
+        </member>
+        <member name="E:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.OnNotificationReceived">
+            <summary>
+            Event triggered when a notification is received
+            </summary>
+        </member>
+        <member name="E:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.OnNotificationError">
+            <summary>
+            Event triggered when there's an error
+            </summary>
+        </member>
+        <member name="P:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.Token">
+            <summary>
+            Push notification token
+            </summary>
+        </member>
+        <member name="M:Plugin.FirebasePushNotification.Abstractions.IFirebasePushNotification.SendDeviceGroupMessage(System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.Int32)">
+            <summary>
+            Send device group message
+            </summary>
+        </member>
+    </members>
+</doc>

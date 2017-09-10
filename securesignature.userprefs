@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{ED494420-9F38-4A57-8568-1FE3BF98BD58}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="securesignature/Views/MainPage.xaml" Line="33" Column="1" />
+      <File FileName="securesignature/Views/MainPage.xaml.cs" Line="86" Column="23" />
+      <File FileName="securesignature/Views/FailurePage.xaml.cs" Line="79" Column="67" />
+      <File FileName="securesignature/Services/RegistrationIntentService.cs" Line="28" Column="46" />
+      <File FileName="securesignature/Models/DeviceInfo.cs" Line="6" Column="18" />
+      <File FileName="securesignature/Models/Api.cs" Line="14" Column="1" />
+      <File FileName="../../../../../Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2001" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.securesignature.Droid PreferredExecutionTarget="Android.Nexus_6_API_24" />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>iOS/securesignature.iOS.csproj</String>
+  </DisabledProjects>
+</Properties>

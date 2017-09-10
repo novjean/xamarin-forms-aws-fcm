@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.FirebasePushNotification</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.FirebasePushNotification.CrossFirebasePushNotification">
+            <summary>
+            Cross platform FirebasePushNotification implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.FirebasePushNotification.CrossFirebasePushNotification.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+        <member name="T:Plugin.FirebasePushNotification.FirebasePushNotificationManager">
+            <summary>
+            Implementation for FirebasePushNotification
+            </summary>
+        </member>
+        <member name="M:Plugin.FirebasePushNotification.FirebasePushNotificationManager.Connect">
+            <summary>
+            Connects to Firebase Cloud Messaging
+            </summary>
+        </member>
+    </members>
+</doc>

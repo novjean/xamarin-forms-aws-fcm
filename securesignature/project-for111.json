@@ -1,0 +1,10 @@
+﻿{
+  "dependencies": {
+    "jose-pcl": "0.0.4",
+    "PCLCrypto": "2.0.147"
+  },
+  "frameworks": {
+    ".NETPortable,Version=v4.5,Profile=Profile111": {}
+  },
+  "supports": {}
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:signatures="clr-namespace:SignaturePad.Forms;assembly=SignaturePad.Forms"
+    x:Class="securesignature.Views.SigningPage">
+    <ScrollView>
+        <Grid
+            x:Name="MainLayout"
+            Padding="20"
+            RowSpacing="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <StackLayout
+                Grid.Row="0">
+                <Label 
+                    x:Name="labelPageTitle"
+                    Text="Signing Page"
+                    FontAttributes="Bold"
+                    HorizontalOptions="CenterAndExpand"
+                    />
+                <Label
+                    x:Name="labelMessage1"
+                    HorizontalOptions="CenterAndExpand"
+                    />
+                <Label
+                    x:Name="labelMessage2"
+                    HorizontalOptions="CenterAndExpand"
+                    />
+                <Label
+                    x:Name="labelMessage3"
+                    HorizontalOptions="CenterAndExpand"
+                    />
+                
+                <signatures:SignaturePadView
+                    x:Name="signaturePad"
+                    BackgroundColor="White"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand" />
+                <ActivityIndicator 
+                        x:Name="activitySpinner" 
+                        Color="Blue"
+                        IsRunning="true"
+                        IsVisible="false"/>
+            </StackLayout>
+
+            <StackLayout
+                Grid.Row="1"
+                VerticalOptions="End">
+                <StackLayout
+                    Orientation="Horizontal">
+                    <Button
+                        HorizontalOptions="Fill"
+                        BackgroundColor="#ffd632" 
+                        TextColor="White" 
+                        FontAttributes="Bold"
+                        Text="Cancel"
+                        Clicked="OnCancelClicked"/>
+                    <Button
+                        HorizontalOptions="FillAndExpand"
+                        BackgroundColor="#66ff80" 
+                        TextColor="White" 
+                        FontAttributes="Bold"
+                        Text="Send"
+                        Clicked="OnSendClicked"/>
+                </StackLayout>
+
+                <Label 
+                    x:Name="labelCompany"
+                    HorizontalOptions="Center"
+                    Text="Core Computing Solutions Inc."
+                    FontSize="15"
+                    FontFamily="Times New Roman"/>
+                <Label 
+                    x:Name="labelCompanyDetails"
+                    HorizontalOptions="Center"
+                    Text="support@ccscorp.com | ccscorp.com"
+                    FontSize="15"
+                    FontFamily="Times New Roman" />
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

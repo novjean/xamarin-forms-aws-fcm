@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.FirebasePushNotification</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.FirebasePushNotification.CrossFirebasePushNotification">
+            <summary>
+            Cross platform FirebasePushNotification implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.FirebasePushNotification.CrossFirebasePushNotification.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+        <member name="T:Plugin.FirebasePushNotification.FirebasePushNotificationManager">
+            <summary>
+            Implementation for Feature
+            </summary>
+        </member>
+        <member name="M:Plugin.FirebasePushNotification.PNFirebaseIIDService.OnTokenRefresh">
+            Called if InstanceID token is updated. This may occur if the security of
+            the previous token had been compromised. Note that this is called when the InstanceID token
+            is initially generated so this is where you would retrieve the token.
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.TitleKey">
+            <summary>
+            Title
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.TextKey">
+            <summary>
+            Text
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.SubtitleKey">
+            <summary>
+            Subtitle
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.MessageKey">
+            <summary>
+            Message
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.BodyKey">
+            <summary>
+            Message
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.AlertKey">
+            <summary>
+            Alert
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.IdKey">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.TagKey">
+            <summary>
+            Tag
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.ActionKey">
+            <summary>
+            Action Click
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.CategoryKey">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.SilentKey">
+            <summary>
+            Silent
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.ActionNotificationIdKey">
+            <summary>
+            ActionNotificationId
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.ActionNotificationTagKey">
+            <summary>
+            ActionNotificationTag
+            </summary>
+        </member>
+        <member name="F:Plugin.FirebasePushNotification.DefaultPushNotificationHandler.ActionIdentifierKey">
+            <summary>
+            ActionIdentifeir
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="securesignature.Views.FailurePage">
+    <ScrollView>
+    <Grid
+        x:Name="MainLayout"
+        Padding="20"
+        RowSpacing="20">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackLayout
+            VerticalOptions="Start"
+            Grid.Row="0">
+            <Label 
+                x:Name="labelPageTitle"
+                Text="Device Not Registered"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalOptions="CenterAndExpand"
+                />
+                <Image
+                    Source="ic_launcher.png"
+                    HeightRequest="150"
+                    WidthRequest="150"
+                    Aspect="AspectFit" />
+        </StackLayout>
+
+        <StackLayout
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="FillAndExpand"
+            Grid.Row="1">
+            <Label
+                x:Name="displayMessage"
+                HorizontalOptions="CenterAndExpand"/>
+            <Label
+                x:Name="displayUUID"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"/>
+        </StackLayout>
+        
+        <StackLayout
+            VerticalOptions="End"
+            Grid.Row="2">
+            <Label 
+                x:Name="labelCompany"
+                HorizontalOptions="Center"
+                Text="Core Computing Solutions Inc."
+                FontSize="15"
+                FontFamily="Times New Roman"/>
+            <Label 
+                x:Name="labelCompanyDetails"
+                HorizontalOptions="Center"
+                Text="support@ccscorp.com | ccscorp.com"
+                FontSize="15"
+                FontFamily="Times New Roman" />
+        </StackLayout>
+    </Grid>
+    </ScrollView>
+</ContentPage>
